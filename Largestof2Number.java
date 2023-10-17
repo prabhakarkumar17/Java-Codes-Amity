@@ -10,6 +10,9 @@ class Largestof2Number{
         if(a<b){
             System.out.println(" a is smaller than b " );
         }
+            if(a==b){
+                System.out.println("a is equal to b")
+                    }
         else{
             System.out.println(" a is greater than b ");
         }
