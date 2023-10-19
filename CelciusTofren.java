@@ -1,13 +1,20 @@
-/*import java.util.*;
-public class CelciusTofren{
+/*
+import java.util.Scanner;
+public class largest{
     public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
     System.out.println("Reading in Celcius ");
     double c=sc.nextDouble();
     double v=1.8;
-    double a=32; 
+
+    int a=(int)32.8; //Lossy conversion
+    System.out.println("Value of A is "+a);
+    
     double f=(c*v)+a;
     System.out.println("Fahrenheit value " +f);
+    }
+}
+
 
 
     }
